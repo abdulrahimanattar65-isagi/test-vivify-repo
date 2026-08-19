@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --vivify-navy: #071827;
+  --vivify-gold: #b98222;
+  --vivify-cream: #f7f5f0;
+  --background: #ffffff;
+  --foreground: #071827;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), Arial, Helvetica, sans-serif;
+}
+
+.font-serif {
+  font-family: var(--font-playfair), Georgia, serif;
+}
+
+::selection {
+  background: var(--vivify-gold);
+  color: white;
+}
